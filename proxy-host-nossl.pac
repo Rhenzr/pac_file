@@ -5092,7 +5092,7 @@ function FindProxyForURL(url, host) {
     // You should NOT use these proxy servers outside of PAC file!
     // DO NOT enter it manually in any program!
     // By doing this, you harm the service!
-    return "PROXY 79.137.133.78:9999; DIRECT";
+    return "SOCKS 79.137.133.78:8088; DIRECT";
   }
 
   return "DIRECT";
